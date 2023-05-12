@@ -1,0 +1,208 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  margin-bottom: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bitter", serif;
+}
+
+.site-header {
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 81.6px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.8px;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 18px;
+  gap: 10px;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.card {
+  flex: 0 0 50%;
+  max-width: 540px;
+  margin-bottom: 20px;
+}
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card img {
+  width: 100%;
+}
+
+.section-heading {
+  text-align: center;
+  padding: 80px;
+  text-transform: uppercase;
+}
+.section-heading span {
+  color: green;
+}
+
+.about-right {
+  position: relative;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.about-right::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  right: 0px;
+  left: 20px;
+  z-index: -1;
+  border: 2px solid black;
+}
+
+.media-right {
+  display: inline-block;
+  width: 100%;
+}
+.media-right img {
+  width: 100%;
+}
+
+.banner-img {
+  background: url("../images/Rectangle 22.png") no-repeat;
+  background-size: cover;
+  padding: 140px 200px;
+  width: 100%;
+}
+
+.navbar.navbar-expand-sm {
+  justify-content: center;
+}
+.navbar.navbar-expand-sm li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.navbar.navbar-expand-sm li a {
+  color: rgb(44, 53, 57);
+}
+
+.row h5 {
+  font-size: 25px;
+}
+
+.media {
+  width: 390px;
+}
+
+.row p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.testimonials-img {
+  padding-right: 15px;
+}
+.testimonials-flex {
+  padding-bottom: 30px;
+  display: flex;
+}
+.testimonials-item p {
+  margin-bottom: 0;
+}
+.testimonials-wrap {
+  flex: 0 0 33.33%;
+  background-color: white;
+  margin: 15px;
+  border: 2px solid red;
+}
+.testimonials-card {
+  display: flex;
+  margin: auto;
+  padding: 25px;
+}
+.testimonials-text {
+  padding: 20px;
+}
+.testimonials-buttons {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 100px;
+}
+
+.page-footer {
+  margin-top: 100px;
+  background-color: rgb(249, 249, 249);
+}
+.page-footer h5 {
+  margin-bottom: 0px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+ul li a {
+  color: black;
+}
+
+.footer-icons img {
+  padding-right: 15px;
+}/*# sourceMappingURL=style.css.map */
